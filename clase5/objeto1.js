@@ -10,4 +10,4 @@ const datos = {
 
 const resultado = hacerCuenta(datos);
 
-console.log(resultado);
+console.log(resultado); 
