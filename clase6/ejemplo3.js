@@ -18,6 +18,6 @@ function sleep(ms) {
     await sleep(3000);
     console.log('Espera que lo voy a adivinar');
     await sleep(5000);
-    console.log('Es el 4!! ;)');
+    console.log('Es el 4!! o usted estará muerto ;)');
   }
   init();
