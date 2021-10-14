@@ -6,7 +6,7 @@ function sleep(ms) {
     });
   }
   async function init() {
-    console.log('Buenas tardesal juego del calamar');
+    console.log('Buenas tardes al juego del calamar');
     await sleep(1000);
     console.log('Piensa en un número del 1 al 10');
     await sleep(3000);
