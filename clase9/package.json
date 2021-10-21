@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemonindex.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +13,8 @@
   "devDependencies": {
     "nodemon": "^2.0.14",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
