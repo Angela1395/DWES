@@ -1,14 +1,12 @@
-const chalk = require('chalk');
+/* eslint-disable no-console */
+import chalk from 'chalk';
 
+const youShouldNeverUseVar = 'This is my very long line that eslint should check as an error ............................................';
 
-
- var youShouldNeverUseVar = "This is my very long line that eslint should check as an error ............................................";
-
- function myFunction(used, nonUsed){
- if(used){
- console.log(used)
- return
+function myFunction(used) {
+  if (used) {
+    console.log(chalk.blue(used));
+    console.log(youShouldNeverUseVar);
+  }
 }
- }
-
- module.exports = nonExistingVar;ExistingVar;
+export default { myFunction };
