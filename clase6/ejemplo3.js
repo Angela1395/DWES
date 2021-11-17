@@ -16,11 +16,10 @@ function sleep(ms) {
     await sleep(3000);
     console.log('Restale 5');
     await sleep(3000);
-<<<<<<< HEAD
     console.log('Espera que lo voy adivinar');
-=======
+
     console.log('Espera que lo voy a adivinar');
->>>>>>> 41dd8f2407a2f0300ecacb723bb13aa9cc491bf6
+
     await sleep(5000);
     console.log('Es el 4!! o usted estará muerto ;)');
   }
