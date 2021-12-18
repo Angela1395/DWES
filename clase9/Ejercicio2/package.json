@@ -1,0 +1,22 @@
+{
+    "name": "ejercicio2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "crear": "mkdir files",
+      "crear:js": "echo >",
+      "crear:carpeta": "mkdir",
+      "borrar": "rmdir /s files",
+      "borrar:js": "del files/*.js",
+      "imprime:azul": "node -e require('./index').printBlue()",
+      "imprime:rojo": "node -e require('./index').printRed()",
+      "imprime:verde": "node -e require('./index').printGreen()"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "chalk": "^4.1.2"
+    }
+  }
