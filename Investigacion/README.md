@@ -86,7 +86,7 @@ El principal objetivo de GraphQL es evitar las múltiples consultas al servidor.
 
 ## **Diferencias entre ApiRest y GraphQL**
 
-# ApiRest
+--> ApiRest
 
 ~ Es solo una manera de comunicarse entre servidor y cliente.
 
@@ -97,7 +97,7 @@ El principal objetivo de GraphQL es evitar las múltiples consultas al servidor.
 ~ La documentación ajena al desarrollo, depende mucho del desarrollador para mantenerla.
 <br>
 
-# GraphQL
+--> GraphQL
 
 ~ El Cliente define que recibe.
 
